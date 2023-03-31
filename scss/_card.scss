@@ -1,0 +1,36 @@
+.card {
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 10px 0 20px 0 rgba($color:#000000, $alpha:0.2);
+  position:relative;
+  margin-bottom: 20px;
+
+  .card__new {
+    position: absolute;
+    border-radius: 3px;
+    padding:10px 20px;
+    background-color: #99E2D0;
+    top:18px;
+    color:green;
+    right:18px;
+  }
+
+  .card__img {
+    width: 100%;
+    object-fit: cover;
+    height: 180px;
+}
+
+  .card__body {
+    padding: 10px;
+    
+    h3 {
+      margin:6px;
+    }
+      p {
+        margin:6px;
+      }
+    
+  }
+}

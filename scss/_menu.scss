@@ -1,0 +1,15 @@
+
+.menu {
+    background-color: #f2f2f2;
+    border-radius: 38px 38px 0 0;
+    width:100%;
+    position: relative;
+    z-index: 1;
+
+    .menu__title {
+        padding:40px 20px 0 20px;
+        margin-bottom: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+}

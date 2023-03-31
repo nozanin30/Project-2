@@ -1,0 +1,34 @@
+.heart {
+    position: relative;
+    padding: 0px;
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+
+    .heart__like {
+        opacity:0;
+        transition: opacity 1s;
+        color: #9356DC;
+    }
+    
+    .heart__like, .heart__unlike {
+        transition: opacity 1s;
+        position: absolute;
+        top:0;
+        left:0;
+    }
+
+    &:hover {
+        .heart__like {
+            opacity:1;
+        }
+        .heart__unlike{
+            opacity:0;
+        }
+    }
+
+
+}
